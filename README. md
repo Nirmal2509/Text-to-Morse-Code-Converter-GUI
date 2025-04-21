@@ -1,0 +1,102 @@
+Morse Code Converter GUI (with Audio Playback)
+
+A Python GUI application that converts text to Morse Code and vice versa. It also plays Morse Code using sound beeps and includes an easy-to-use interface built with Tkinter.
+
+Features
+
+Convert English text to Morse Code
+
+Convert Morse Code to English text
+
+Play Morse Code with dot and dash sounds using pygame
+
+Copy the output to the clipboard with one click
+
+User-friendly interface built using Tkinter
+
+
+How to Use
+
+Run the script to open the GUI window
+
+Enter either plain text or Morse Code in the input field
+
+Click:
+
+"Convert to Morse" – to encode text
+
+"Convert to Text" – to decode Morse
+
+"Play Morse Code" – to hear audio beeps
+
+"Copy to Clipboard" – to copy the output
+
+
+
+Note: In Morse Code, use / to represent space between words
+
+Getting Started
+
+Prerequisites
+
+Python 3.x
+
+pygame library installed
+
+
+Installation
+
+1. Clone the repository:
+
+git clone https://github.com/Nirmal2509/Text-to-Morse-Code-Converter-GUI.git
+cd Text-to-Morse-Code-Converter-GUI
+
+
+2. Install dependencies:
+
+pip install pygame
+
+
+3. Make sure dot.wav and dash.wav files are in the same folder
+
+
+
+Run the App
+
+python morse_converter.py
+
+File Structure
+
+Text-to-Morse-Code-Converter-GUI/
+├── morse_converter.py     # Main Python script
+├── dot.wav                # Sound for dot (.)
+├── dash.wav               # Sound for dash (-)
+└── README.md              # Project documentation
+
+Code Overview
+
+text_to_morse() – Converts text to Morse Code
+
+morse_to_text() – Converts Morse Code to text
+
+play_morse() – Plays Morse Code using sound
+
+copy_to_clipboard() – Copies the output to the clipboard
+
+Tkinter GUI layout and buttons for interaction
+
+
+Demo
+
+Input: HELLO
+Output: .... . .-.. .-.. ---
+Play: Dots and dashes play as sound beeps
+
+License
+
+This project is open-source and free to use under the MIT License.
+
+Author
+
+Nirmal Rajgor
+GitHub: https://github.com/Nirmal2509
